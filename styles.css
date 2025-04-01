@@ -47,8 +47,55 @@ img {
     margin-bottom: 37px;
 }
 
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+li:active {
+    color: #d0021b;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
+}
+
+.menu {
+    background-color: rgba(6,6,6,0.1);
+    border-bottom: 1px solid #2b3346;
+    border-top: 1px solid #2b3346;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    
+    padding-left: 38px;
+    padding-right: 100px;
+}
+
+.logo {
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 97px;
+    height: 64px;
+}
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    li {
+        display: block;
+    }
+    .menu {
+        background-color: rgba(6,6,6,0.1);
+        border-bottom: 1px solid #2b3346;
+        border-top: 1px solid #2b3346;
+        padding: 10px;
+    }
 }
